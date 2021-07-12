@@ -3,7 +3,7 @@ MAINTAINER uli.hitzel@gmail.com
 EXPOSE 8080
 ARG DEBIAN_FRONTEND=noninteractive
 ENV TZ=Asia/Singapore
-
+BLA 123
 RUN apt-get update
 RUN apt-get install -y nodejs npm
 ENV USER root
